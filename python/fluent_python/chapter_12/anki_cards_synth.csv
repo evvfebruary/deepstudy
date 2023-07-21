@@ -1,0 +1,2 @@
+What protocol does the sequence protocol involve?,__len__ and __getitem__
+What is the purpose of the __getattr__ method?,It is called by the interpreter when attribute lookup fails.

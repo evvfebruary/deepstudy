@@ -1,0 +1,12 @@
+How you can create new instance using cls variable?,cls(*args)
+"What method usign when you call format(2, ""b"")?",__format__
+How make variable private?,add two underscore in front - _ _ x
+What @property decorator do?,Create getter from function!
+How you can using user class in patter matching properly? Which attribute your should set?,"__match_args = (""args of init"")"
+How you can create new instance using cls variable?,cls(*args)
+Best way to change class attributes?,Inherit and change it in subclasses
+What if you try to change instance attribute which use the same name as class attributes?,Only instance variable changed successfully
+What a caveats in using __sloats__?,"1) Subclasses will still have a __dict__ by default, and all additional instance variables will be kept in __dict__. 
+ 2. Intance cannot be targets of weakref. 
+ 3. Instance will only be able to have the attributes listed in __slots__"
+When you should use slots?,"When you try to save yout memory ( you are using tuple instead of dynamic dict, it will be nice optimization if you wanna keep a million of objects for example."

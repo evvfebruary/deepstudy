@@ -1,0 +1,10 @@
+What is a design pattern?,A general recipe for solving a common design problem.
+What patterns are discussed in the book Design Patterns?,23 patterns.
+What is the purpose of the Strategy pattern?,"To define a family of algorithms, encapsulate each one, and make them interchangeable."
+How can the Strategy pattern be implemented with functions?,By using functions as objects to replace classes implementing the strategies.
+What is the purpose of the Command pattern?,To decouple an object that invokes an operation from the provider object that implements it.
+How can the Command pattern be implemented with functions?,By passing functions as arguments instead of using command objects.
+What is the benefit of using functions instead of command objects?,It eliminates the need for a separate command class and simplifies the code.
+What is the best way to choose the best discount strategy for an order?,By using a function that iterates over a list of promotional functions and returns the maximum discount.
+What is a registration decorator?,A decorator that adds functions to a list or registry for later use.
+What is the purpose of the @promotion decorator?,To add promotional functions to a list for the best_promo function to use.

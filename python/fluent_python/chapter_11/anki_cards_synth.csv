@@ -1,0 +1,12 @@
+What is the purpose of the __repr__ method?,To provide a string representation of the object as the developer wants to see it.
+What does the __eq__ method do?,It is used for comparing objects for equality.
+What is the purpose of the __hash__ method?,"It is used for hashing an object, allowing it to be used as a key in a dictionary or an element in a set."
+What is the purpose of the __format__ method?,"It is used to customize the string representation of an object when using it with formatting codes, such as in f-strings or the format() function."
+What is the purpose of __slots__?,It is used to reduce memory usage by specifying a fixed set of attributes for instances.
+How can you override a class attribute in an instance or subclass?,By creating a new instance attribute with the same name.
+What are the benefits and drawbacks of using __slots__?,The benefits are reduced memory usage and improved performance. The drawbacks are that you need to redeclare __slots__ in each subclass and instances can only have the attributes listed in __slots__ unless you include '__dict__' in __slots__.
+What are some recommended books for learning more about special methods in Python?,"Python in a Nutshell, Python Cookbook, Python Essential Reference"
+What is attrs package and what is its purpose?,attrs is a Python package that simplifies the implementation of object protocols (dunder methods) in classes.
+What are the benefits of using properties in Python classes?,Properties allow for more control over attribute access and can be implemented without changing the public interface of the class.
+What is the difference between safety and security in terms of private attributes?,"Safety refers to protection against accidents, while security refers to protection against malicious intent."
+Do Java's private and protected modifiers provide security guarantees?,"No, Java's private and protected modifiers only provide safety guarantees and do not offer security against malicious intent."

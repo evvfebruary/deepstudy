@@ -1,0 +1,10 @@
+What is _ _ mro _ _ stance for?,Method Resolution Order
+What method should you call to check all inheritance structure?,_ _ mro _ _
+"class Struggle: 
+ def __len__(self): ... 
+ issubclass(Struggle, abc.Sized) ?",Will be True!
+How exactly abc.Sized can check their virtual subclasses without inheritance and register?,"Using __subclasshook__ method and check some methods implemented 
+ if any('__len__' in B.__dict__ for B in C.__mro__):"
+How you can linked your class with ABC class without inheritance?,ABCClass.register(YourSubclass)
+What is EAFP principle?,EASY TO ASK FORGIVNES THAN PERMISSION ( try to execute some method simpler than check can we do it before )
+What is Interface segregation principle?,"no code should be forced to depend on methods it does not use, ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to them"

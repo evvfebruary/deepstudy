@@ -1,0 +1,19 @@
+What is the first principle of Object-Oriented Design?,"Program to an interface, not an implementation."
+What are the four ways of defining and using interfaces in Python?,"Duck typing, Goose typing, Static typing, Static duck typing."
+What is the difference between dynamic and static protocols?,"Dynamic protocols are implicit and defined by convention, while static protocols have an explicit definition as a typing.Protocol subclass."
+What is monkey patching?,"Dynamically changing a module, class, or function at runtime to add features or fix bugs."
+What is the benefit of failing fast in defensive programming?,"Failing fast means raising runtime errors as soon as possible, making it easier to catch and fix bugs."
+What is duck typing?,Duck typing is an approach that focuses on the methods and attributes of an object rather than its actual type.
+What is goose typing?,Goose typing is a runtime type checking approach that leverages abstract base classes (ABCs).
+What is an abstract base class (ABC)?,An abstract base class is a class that defines an interface for explicit type checking at runtime.
+What is the purpose of subclassing an ABC?,Subclassing an ABC makes it explicit that you are implementing a previously defined interface.
+What are some advantages of using ABCs?,"ABCs introduce virtual subclasses, which are classes that don't inherit from the ABC but are still recognized by isinstance() and issubclass(). They also provide a way to define interfaces when other techniques like hasattr() would be clumsy or subtly wrong."
+What is the recommended approach for type checking with ABCs?,It is recommended to use isinstance() and issubclass() with ABCs instead of concrete classes to allow for more flexibility and polymorphism.
+What is the purpose of registering a virtual subclass?,"Registering a virtual subclass allows end-user code to declare that a certain class becomes a virtual subclass of an ABC, even if it doesn't inherit from the ABC."
+What are some ABCs provided by the collections.abc module?,"Some ABCs provided by the collections.abc module include Sequence, MutableSequence, Mapping, MutableMapping, Set, MutableSet, and more."
+What are the main ABCs defined in collections.abc?,"Iterable, Container, Sized, Collection, Sequence, Mapping, Set, MappingView, Iterator, Callable, Hashable"
+What is the purpose of the register method in ABCs?,"The register method is used to register a class as a virtual subclass of an ABC, allowing it to pass issubclass and isinstance checks."
+What is the purpose of the __subclasshook__ method?,The __subclasshook__ method allows ABCs to support structural typing by checking if a class implements certain methods.
+What is a static protocol?,"A static protocol is a protocol defined using the typing.Protocol class, allowing for static type checking of duck-typed interfaces."
+How can a static protocol be made runtime checkable?,A static protocol can be made runtime checkable by applying the @runtime_checkable decorator to the protocol class.
+What are the best practices for protocol design?,"Use narrow protocols with one or two methods, follow naming conventions, and consider client-code protocols."
