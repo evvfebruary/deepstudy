@@ -1,0 +1,7 @@
+How exactly python interpreter will perform when you execute a + b? Describe the steps,"1. If a has __add__, this method will be called 
+ 2. Check b have __radd__ method. 
+ 3. raise TypeError"
+How you can implement _ _ radd _ _ method for class which already have _ _ add __ method?,"just invoke the _ _ add _ _, or even _ _ radd _ _ = _ _ add _ _"
+What dunder method responsible for @?,_ _ matmul _ _
+Fallback for __iadd__?,"__add__ will be called, a += b to a = a + b"
+Which + and - unary operators will be call?,_ _ pos _ _ and _ _ neg _ _

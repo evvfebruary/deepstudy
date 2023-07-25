@@ -1,0 +1,3 @@
+[submodule "python/fluent_python/example-code-2e"]
+	path = python/fluent_python/example-code-2e
+	url = https://github.com/fluentpython/example-code-2e

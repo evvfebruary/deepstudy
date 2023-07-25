@@ -1,0 +1,2 @@
+What you can use to static typing dict with keys?,typing.TypedDict
+How you can describe two version of type checking for a func?,using @overload decorator from typing

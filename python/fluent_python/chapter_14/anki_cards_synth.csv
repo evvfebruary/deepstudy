@@ -1,0 +1,15 @@
+What is the super() function used for?,Calling a method in a superclass from a subclass
+What is the problem with subclassing built-in types?,The built-in methods often ignore user-defined overrides
+What is the diamond problem in multiple inheritance?,Naming conflicts when superclasses implement a method with the same name
+What is a mixin class?,A mixin class is designed to be subclassed together with at least one other class in a multiple inheritance arrangement.
+What is the purpose of mixin classes?,To provide method implementations for reuse by multiple unrelated subclasses
+What is an aggregate class?,A class that is constructed primarily by inheriting from mixins and does not add its own structure or behavior
+What is the danger of subclassing concrete classes?,Instances of concrete classes usually have internal state that can easily be corrupted when overriding methods
+What is the purpose of ABCs in Python?,To define interfaces and provide a hierarchy of types
+What is the modern trend regarding inheritance?,Rejecting inheritance
+What is the language Go's approach to inheritance?,Go does not support inheritance
+What is the best advice about inheritance?,Avoid it if you can
+What is the recommended alternative to subclassing?,Composition
+What is the recommended approach before creating your own classes?,Leveraging existing classes from the standard library
+What is the purpose of the super function?,To call a method on a parent class
+What is the issue with multiple inheritance?,It is inherently complicated and tricky

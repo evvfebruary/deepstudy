@@ -1,0 +1,9 @@
+What are the limitations of operator overloading in Python?,"1. Cannot change the meaning of operators for built-in types
+2. Cannot create new operators, only overload existing ones
+3. Some operators cannot be overloaded (is, and, or, not)"
+What is the behavior of the rich comparison operators?,"The rich comparison operators use the same set of methods in forward and reverse operator calls, and if the reverse method is missing or returns NotImplemented, Python compares the object IDs instead of raising TypeError."
+What is the purpose of __ne__?,__ne__ returns the negated result of __eq__ if __eq__ does not return NotImplemented.
+What are the augmented assignment operators?,The augmented assignment operators are += and *=
+How does += work with immutable types?,+= works by creating a new instance and rebinding the lefthand variable.
+What happens if a class does not implement the in-place operators?,"The augmented assignment operators work as syntactic sugar, with += being evaluated as a = a + b."
+What should in-place operator methods return for mutable objects?,In-place operator methods for mutable objects should return self.
